@@ -63,6 +63,7 @@ This list focuses on the *harness*, not the model. Every component here exists b
 
 Canonical essays that define what harness engineering is and why it matters.
 
+- [My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey) — The essay that coined "harness engineering" (February 2026): Mitchell Hashimoto's six-stage adoption path culminates in engineering the harness itself — every agent mistake becomes a permanent fix, whether an AGENTS.md line or a purpose-built tool, so the error class never recurs. The Ghostty numbers (commits needing correction dropping from 40% to 3% over three months of accumulated harness fixes) are the founding empirical argument that the harness, not the prompt, is the reliability surface.
 - [Harness Engineering](https://openai.com/index/harness-engineering/) — OpenAI's framing of harness engineering as a discipline: how to design the scaffolding that lets Codex and similar agents operate reliably in an agent-first world.
 - [Unrolling the Codex Agent Loop](https://openai.com/index/unrolling-the-codex-agent-loop/) — OpenAI's detailed breakdown of the Codex agent loop, exposing each harness component and where it can be improved.
 - [Run Long-Horizon Tasks with Codex](https://developers.openai.com/blog/run-long-horizon-tasks-with-codex/) — OpenAI's practice guide for long-horizon task planning: introduces Plan.md, Implement.md, Documentation.md as reusable harness artifacts.
