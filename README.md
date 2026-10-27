@@ -584,6 +584,8 @@ Real repositories worth studying — each with a note on *why* it's worth your t
 - [RAMPART](https://github.com/microsoft/RAMPART) — Pytest-native safety and security testing framework for agentic AI that turns red-team findings into repeatable CI tests. Supports statistical trials (e.g., "safe in 95% of runs") rather than single-shot pass/fail, making it the first concrete tool for treating agent safety as an engineering discipline rather than a post-hoc audit. ![Stars](https://img.shields.io/github/stars/microsoft/RAMPART?style=flat-square&label=★&color=yellow)
 - [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness) — Open-source Python governance harness that wraps any OpenAI-compatible client with a configurable tool-approval pipeline, prompt-injection defense, secret-exposure checks, and JSONL audit trails. Demonstrates how to productize "Agent = Model + Harness" into a drop-in governance layer rather than scattering guardrails across application code. ![Stars](https://img.shields.io/github/stars/aiming-lab/AutoHarness?style=flat-square&label=★&color=yellow)
 
+- [MCP Security Testing Checklist](https://loki-intelligence.com/blog/mcp-security-testing-checklist) — Twelve-step practitioner verification checklist for MCP server and tool-harness boundaries: OAuth/token scoping, schema and description poisoning, dynamic discovery freezes, SSRF/path-traversal argument validation, cross-tenant isolation, and secret redaction in tool responses. Provides a concrete pre-release audit rubric for verifying that MCP integrations cannot be abused to cross harness trust boundaries.
+
 ---
 
 ## Evals & Verification
