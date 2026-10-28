@@ -586,6 +586,8 @@ Real repositories worth studying — each with a note on *why* it's worth your t
 - [aiming-lab/AutoHarness](https://github.com/aiming-lab/AutoHarness) — Open-source Python governance harness that wraps any OpenAI-compatible client with a configurable tool-approval pipeline, prompt-injection defense, secret-exposure checks, and JSONL audit trails. Demonstrates how to productize "Agent = Model + Harness" into a drop-in governance layer rather than scattering guardrails across application code. ![Stars](https://img.shields.io/github/stars/aiming-lab/AutoHarness?style=flat-square&label=★&color=yellow)
 - [Speakeasy control plane](https://github.com/speakeasy-api/gram) — MCP gateway that scopes agent tool access by identity, team, and role, with security policy enforced on each action and an audit trail. Useful as a reference for putting authorization at the tool boundary instead of relying on model prompts to restrict access.
 
+- [MCP Security Testing Checklist](https://loki-intelligence.com/blog/mcp-security-testing-checklist) — Twelve-step practitioner verification checklist for MCP server and tool-harness boundaries: OAuth/token scoping, schema and description poisoning, dynamic discovery freezes, SSRF/path-traversal argument validation, cross-tenant isolation, and secret redaction in tool responses. Provides a concrete pre-release audit rubric for verifying that MCP integrations cannot be abused to cross harness trust boundaries.
+
 ---
 
 ## Evals & Verification
